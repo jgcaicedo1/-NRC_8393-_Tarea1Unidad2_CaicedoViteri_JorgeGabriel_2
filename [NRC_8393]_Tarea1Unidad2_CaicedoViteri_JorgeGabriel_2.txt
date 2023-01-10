@@ -1,0 +1,311 @@
+INSERT INTO Persona VALUES(1725497190,'Martha','Bermúdez','2020-01-01',3);
+INSERT INTO Persona VALUES(1754362730,'Fabián','Giraldo','2018-09-13',4);
+INSERT INTO Persona VALUES(1726539220,'José','Cárdenas','2018-12-17',4);
+INSERT INTO Persona VALUES(1794837890,'Lina','Becerra','2019-07-17',3);
+INSERT INTO Persona VALUES(1743243250,'Alexander','Ramírez','2017-10-03',5);
+INSERT INTO Persona VALUES(1723683280,'Alberto','Cortés','2020-06-18',2);
+INSERT INTO Persona VALUES(1741803120,'Iván','Rincón','2020-01-27',2);
+INSERT INTO Persona VALUES(1723648070,'Alexandra','Ramírez','2020-07-23',2);
+INSERT INTO Persona VALUES(1723963620,'Jefferson','Castro','2020-02-12',2);
+INSERT INTO Persona VALUES(1783812480,'Alba','Guerrero','2018-10-07',4);
+INSERT INTO Persona VALUES(1765426960,'Lina','Hernández','1978-08-22',44);
+INSERT INTO Persona VALUES(1742346450,'Felipe','López','1986-12-03',35);
+INSERT INTO Persona VALUES(1742346570,'Sonia','Vallejo','1993-12-15',28);
+INSERT INTO Persona VALUES(1787023510,'Cecilia','Trujillo','1977-12-07',44);
+INSERT INTO Persona VALUES(1754918300,'Ramiro','García','1990-07-01',32);
+INSERT INTO Persona VALUES(1754910340,'María','Osorio','1976-07-05',46);
+INSERT INTO Persona VALUES(1760392840,'Eduardo','Gómez','1978-05-04',44);
+INSERT INTO Persona VALUES(1720596720,'Alexandra','Ruiz','1973-03-25',49);
+INSERT INTO Persona VALUES(1702939180,'Cecilia','Ortiz','1986-07-20',36);
+INSERT INTO Persona VALUES(1723123590,'Alonso','Guerrero','1980-08-20',42);
+INSERT INTO Persona VALUES(1254312320,'Cecilia','Cárdenas','1987-09-28',35);
+INSERT INTO Persona VALUES(1654351230,'Vanessa','Castro','1981-07-20',41);
+INSERT INTO Persona VALUES(1532120320,'Pilar','Cortés','1975-04-24',47);
+INSERT INTO Persona VALUES(1401284250,'Nelson','Bermúdez','1980-11-02',42);
+INSERT INTO Persona VALUES(1391293820,'Óscar','Giraldo','1973-05-18',49);
+
+INSERT INTO Estudiante VALUES(1725497190,'MarthaBermúdez.png');
+INSERT INTO Estudiante VALUES(1754362730,'FabiánGiraldo.png');
+INSERT INTO Estudiante VALUES(1726539220,'JoséCárdenas.png');
+INSERT INTO Estudiante VALUES(1794837890,'LinaBecerra.png');
+INSERT INTO Estudiante VALUES(1743243250,'AlexanderRamírez.png');
+INSERT INTO Estudiante VALUES(1723683280,'AlbertoCortés.png');
+INSERT INTO Estudiante VALUES(1741803120,'IvánRincón.png');
+INSERT INTO Estudiante VALUES(1723648070,'AlexandraRamírez.png');
+INSERT INTO Estudiante VALUES(1723963620,'JeffersonCastro.png');
+INSERT INTO Estudiante VALUES(1783812480,'AlbaGuerrero.png');
+
+INSERT INTO Docente VALUES(1765426960,'Ingeniero');
+INSERT INTO Docente VALUES(1742346450,'Maestría');
+INSERT INTO Docente VALUES(1742346570,'Doctor');
+INSERT INTO Docente VALUES(1787023510,'Ingeniero');
+INSERT INTO Docente VALUES(1754918300,'Licenciado');
+INSERT INTO Docente VALUES(1754910340,'Ingeniero');
+INSERT INTO Docente VALUES(1760392840,'Ingeniero');
+INSERT INTO Docente VALUES(1720596720,'Bachillerato');
+INSERT INTO Docente VALUES(1702939180,'Ingeniero');
+INSERT INTO Docente VALUES(1723123590,'Licenciado');
+
+INSERT INTO Representar VALUES(1725497190,1401284250,'Padre');
+INSERT INTO Representar VALUES(1754362730,1391293820,'Padre');
+INSERT INTO Representar VALUES(1726539220,1254312320,'Madre');
+INSERT INTO Representar VALUES(1794837890,1702939180,'Madre');
+INSERT INTO Representar VALUES(1743243250,1787023510,'Madre');
+INSERT INTO Representar VALUES(1723683280,1532120320,'Padre');
+INSERT INTO Representar VALUES(1741803120,1765426960,'Madre');
+INSERT INTO Representar VALUES(1723648070,1787023510,'Madre');
+INSERT INTO Representar VALUES(1723963620,1654351230,'Madre');
+INSERT INTO Representar VALUES(1783812480,1720596720,'Madre');
+
+INSERT INTO Usuario VALUES(1,'marthabermudez','sda912312ms',1725497190);
+INSERT INTO Usuario VALUES(2,'fabiangiraldo','ghfhf213dsd',1754362730);
+INSERT INTO Usuario VALUES(3,'josecardenas','dooio131231',1726539220);
+INSERT INTO Usuario VALUES(4,'linabecerra','iuhui4213cfr',1794837890);
+INSERT INTO Usuario VALUES(5,'alexanderramirez','ninij231pz',1743243250);
+INSERT INTO Usuario VALUES(6,'albertocortes','yguybhb3123b',1723683280);
+INSERT INTO Usuario VALUES(7,'ivanrincon','osjdsi123nns',1741803120);
+INSERT INTO Usuario VALUES(8,'alexandraramirez','djisfjs123sa',1723648070);
+INSERT INTO Usuario VALUES(9,'jeffersoncastro','jnsadu9843hhs',1723963620);
+INSERT INTO Usuario VALUES(10,'albaguerrero','dsmoiaio823',1783812480);
+INSERT INTO Usuario VALUES(11,'linahernandez','dsmoa231pd',1765426960);
+INSERT INTO Usuario VALUES(12,'felipelopez','sdoao823jsd',1742346450);
+INSERT INTO Usuario VALUES(13,'soniavallejo','pdksoa349asd',1742346570);
+INSERT INTO Usuario VALUES(14,'ceciliatrujillo','pkdsoeiw23',1787023510);
+INSERT INTO Usuario VALUES(15,'ramirogarcia','giuausd821',1754918300);
+INSERT INTO Usuario VALUES(16,'mariaosorio','paoksdo213',1754910340);
+INSERT INTO Usuario VALUES(17,'eduardogomez','plldsoir',1760392840);
+INSERT INTO Usuario VALUES(18,'alexandraruiz','fnjsndf234',1720596720);
+INSERT INTO Usuario VALUES(19,'ceciliaortiz','sodoia23',1702939180);
+INSERT INTO Usuario VALUES(20,'alonsoguerrero','dasd1',1723123590);
+
+INSERT INTO Rol VALUES(1,'Crear Roles');
+INSERT INTO Rol VALUES(2,'Cambiar Roles');
+INSERT INTO Rol VALUES(3,'Ingresar Estudiante');
+INSERT INTO Rol VALUES(4,'Ingresar Docente');
+INSERT INTO Rol VALUES(5,'Ingresar Institucion');
+INSERT INTO Rol VALUES(6,'Ingresar Persona');
+INSERT INTO Rol VALUES(7,'Modificar Ubicar');
+INSERT INTO Rol VALUES(8,'Crear Usuario');
+INSERT INTO Rol VALUES(9,'Modificar Usuario');
+INSERT INTO Rol VALUES(10,'Borrar Usuario');
+
+INSERT INTO Definir VALUES(20,10);
+INSERT INTO Definir VALUES(19,10);
+INSERT INTO Definir VALUES(20,2);
+INSERT INTO Definir VALUES(20,1);
+INSERT INTO Definir VALUES(1,9);
+INSERT INTO Definir VALUES(2,9);
+INSERT INTO Definir VALUES(3,9);
+INSERT INTO Definir VALUES(4,9);
+INSERT INTO Definir VALUES(5,9);
+INSERT INTO Definir VALUES(6,9);
+INSERT INTO Definir VALUES(11,1);
+
+INSERT INTO Año_Escolar VALUES(1,'Periodo Academico 2022-2023','Activo');
+INSERT INTO Año_Escolar VALUES(2,'Periodo Academico 2021-2022','Inactivo');
+INSERT INTO Año_Escolar VALUES(3,'Periodo Academico 2020-2021','Inactivo');
+INSERT INTO Año_Escolar VALUES(4,'Periodo Academico 2019-2020','Inactivo');
+INSERT INTO Año_Escolar VALUES(5,'Periodo Academico 2018-2019','Inactivo');
+INSERT INTO Año_Escolar VALUES(6,'Periodo Academico 2017-2018','Inactivo');
+INSERT INTO Año_Escolar VALUES(7,'Periodo Academico 2016-2017','Inactivo');
+INSERT INTO Año_Escolar VALUES(8,'Periodo Academico 2015-2016','Inactivo');
+INSERT INTO Año_Escolar VALUES(9,'Periodo Academico 2014-2015','Inactivo');
+INSERT INTO Año_Escolar VALUES(10,'Periodo Academico 2013-2014','Inactivo');
+
+INSERT INTO Nivel VALUES(1,'Inicial 1');
+INSERT INTO Nivel VALUES(2,'Inicial 2');
+INSERT INTO Nivel VALUES(3,'Primero Basica');
+INSERT INTO Nivel VALUES(4,'Segundo Basica');
+INSERT INTO Nivel VALUES(5,'Tercero Basica');
+INSERT INTO Nivel VALUES(6,'Cuarto Basica');
+INSERT INTO Nivel VALUES(7,'Quinto Basica');
+INSERT INTO Nivel VALUES(8,'Sexto Basica');
+INSERT INTO Nivel VALUES(9,'Octavo Basica');
+INSERT INTO Nivel VALUES(10,'Noveno Basica');
+
+INSERT INTO Matricular VALUES(1743243250,2,1,'Inactivo');
+INSERT INTO Matricular VALUES(1743243250,1,2,'Activo');
+INSERT INTO Matricular VALUES(1754362730,2,1,'Inactivo');
+INSERT INTO Matricular VALUES(1754362730,1,2,'Activo');
+INSERT INTO Matricular VALUES(1726539220,1,1,'Activo');
+INSERT INTO Matricular VALUES(1723683280,1,1,'Activo');
+INSERT INTO Matricular VALUES(1741803120,1,1,'Activo');
+INSERT INTO Matricular VALUES(1723963620,1,1,'Activo');
+INSERT INTO Matricular VALUES(1783812480,1,2,'Activo');
+INSERT INTO Matricular VALUES(1723648070,1,1,'Inactivo');
+
+INSERT INTO Materia VALUES(1,'Lenguaje y Comunicación','Aprendizaje Basico 1 Lenguaje',1);
+INSERT INTO Materia VALUES(2,'Lenguaje y Comunicación','Aprendizaje Basico 2 Lenguaje',2);
+INSERT INTO Materia VALUES(3,'Pensamiento Matemático','Introduccion al Pensamiento Matemático 1',1);
+INSERT INTO Materia VALUES(4,'Pensamiento Matemático','Introdduccion al Pensamiento Matemático 2',2);
+INSERT INTO Materia VALUES(5,'Educación Fisica','Movimientos Fisicos Simples',1);
+INSERT INTO Materia VALUES(6,'Educación Fisica','Movimientos Articulares',2);
+INSERT INTO Materia VALUES(7,'Educación SocioEmocional','Aprender a Expresar Emociones',1);
+INSERT INTO Materia VALUES(8,'Artes','Identificar el Entorno',1);
+INSERT INTO Materia VALUES(9,'Exploración','Desenvolverse en la Naturaleza',1);
+INSERT INTO Materia VALUES(10,'Matematicas','Aprendizaje de Geometria',10);
+
+INSERT INTO Actividad VALUES(1,'Dibujar una emoción','Activo',7);
+INSERT INTO Actividad VALUES(2,'Contar los dedos de la mano','Activo',3);
+INSERT INTO Actividad VALUES(3,'Dibujar un Arbol','Activo',8);
+INSERT INTO Actividad VALUES(4,'Pronunciar Vocales','Activo',2);
+INSERT INTO Actividad VALUES(5,'Recolectar Flores','Activo',9);
+INSERT INTO Actividad VALUES(6,'Dibujar su Familia','Activo',8);
+INSERT INTO Actividad VALUES(7,'Identificar los numeros del 1-9','Activo',1);
+INSERT INTO Actividad VALUES(8,'Contar miembros de la familia','Activo',4);
+INSERT INTO Actividad VALUES(9,'Dibujar una casa','Activo',8);
+INSERT INTO Actividad VALUES(10,'Examen Primer Parcial','Activo',10);
+
+INSERT INTO Libreta VALUES(1,'Libreta 1743243250 2021-2022','Inactivo');
+INSERT INTO Libreta VALUES(2,'Libreta 1743243250 2022-2023','Activo');
+INSERT INTO Libreta VALUES(3,'Libreta 1754362730 2021-2022','Inactivo');
+INSERT INTO Libreta VALUES(4,'Libreta 1754362730 2022-2023','Activo');
+INSERT INTO Libreta VALUES(5,'Libreta 1726539220 2022-2023','Activo');
+INSERT INTO Libreta VALUES(6,'Libreta 1723683280 2022-2023','Activo');
+INSERT INTO Libreta VALUES(7,'Libreta 1741803120 2022-2023','Activo');
+INSERT INTO Libreta VALUES(8,'Libreta 1723963620 2022-2023','Activo');
+INSERT INTO Libreta VALUES(9,'Libreta 1783812480 2022-2023','Activo');
+INSERT INTO Libreta VALUES(10,'Libreta 1723648070 2022-2023','Inactivo');
+
+INSERT INTO Registrar VALUES(7,1,1,20);
+INSERT INTO Registrar VALUES(8,3,6,10);
+INSERT INTO Registrar VALUES(8,3,7,14);
+INSERT INTO Registrar VALUES(8,3,8,8);
+INSERT INTO Registrar VALUES(8,6,6,20);
+INSERT INTO Registrar VALUES(8,6,7,3);
+INSERT INTO Registrar VALUES(8,6,8,18);
+INSERT INTO Registrar VALUES(8,9,6,15);
+INSERT INTO Registrar VALUES(8,9,7,15);
+INSERT INTO Registrar VALUES(8,9,8,17);
+INSERT INTO Registrar VALUES(3,2,2,20);
+
+INSERT INTO Base_Legal VALUES(1,'LOEI 2022','Activo');
+INSERT INTO Base_Legal VALUES(2,'LOEI 2021','Activo');
+INSERT INTO Base_Legal VALUES(3,'LOEI 2020','Activo');
+INSERT INTO Base_Legal VALUES(4,'LOEI 2019','Inactivo');
+INSERT INTO Base_Legal VALUES(5,'LOEI 2018','Inactivo');
+INSERT INTO Base_Legal VALUES(6,'LOEI 2017','Inactivo');
+INSERT INTO Base_Legal VALUES(7,'LOEI 2016','Inactivo');
+INSERT INTO Base_Legal VALUES(8,'LOEI 2015','Inactivo');
+INSERT INTO Base_Legal VALUES(9,'LOEI 2014','Inactivo');
+INSERT INTO Base_Legal VALUES(10,'LOEI 2013','Inactivo');
+
+INSERT INTO Institucion VALUES(1,'U.E. Paulo V','Presencial','Matutina',1);
+INSERT INTO Institucion VALUES(2,'U.E. Borja I','Presencial','Vespertina',1);
+INSERT INTO Institucion VALUES(3,'U.E. Borja II','Presencial','Vespertina',1);
+INSERT INTO Institucion VALUES(4,'U.E. Borja III','Presencial','Vespertina',1);
+INSERT INTO Institucion VALUES(5,'U.E. El Prado','Presencial','Matutina',1);
+INSERT INTO Institucion VALUES(6,'U.E. San Patricio','Mixta','Vespertina',1);
+INSERT INTO Institucion VALUES(7,'U.E. José María','Virtual','Vespertina',1);
+INSERT INTO Institucion VALUES(8,'U.E. Borja Montserrat','Virtual','Matutina',1);
+INSERT INTO Institucion VALUES(9,'U.E. San Patricio','Presencial','Matutina',1);
+INSERT INTO Institucion VALUES(10,'U.E. San Gabriel','Presencial','Matutina',1);
+
+INSERT INTO Aula VALUES(1,'I1-A',9);
+INSERT INTO Aula VALUES(1,'I1-A',10);
+INSERT INTO Aula VALUES(2,'I1-B',9);
+INSERT INTO Aula VALUES(2,'I1-B',10);
+INSERT INTO Aula VALUES(3,'I2-A',9);
+INSERT INTO Aula VALUES(3,'I2-A',10);
+INSERT INTO Aula VALUES(4,'I2-B',9);
+INSERT INTO Aula VALUES(4,'I2-B',10);
+INSERT INTO Aula VALUES(5,'1ro-A',1);
+INSERT INTO Aula VALUES(6,'1ro-B',1);
+INSERT INTO Aula VALUES(7,'2do-A',1);
+INSERT INTO Aula VALUES(7,'2do-A',2);
+
+INSERT INTO Ubicar VALUES(1765426960,9,1,1,'L-W-J 7:00-9:00');
+INSERT INTO Ubicar VALUES(1765426960,9,1,3,'L-W-J 9:15-10:15');
+INSERT INTO Ubicar VALUES(1742346570,10,1,1,'M-V 7:00-9:00');
+INSERT INTO Ubicar VALUES(1787023510,9,2,1,'L-W-V 11:00-12:00');
+INSERT INTO Ubicar VALUES(1754918300,10,2,3,'L-M 7:00-9:00');
+INSERT INTO Ubicar VALUES(1754910340,9,3,2,'L-M 9:15-10:15');
+INSERT INTO Ubicar VALUES(1754910340,9,3,4,'J-V 7:00-9:00');
+INSERT INTO Ubicar VALUES(1754910340,9,3,6,'L-M 7:00-9:00');
+INSERT INTO Ubicar VALUES(1702939180,9,4,6,'L-W-V 7:00-9:00');
+INSERT INTO Ubicar VALUES(1723123590,10,4,2,'L-M-W 11:00-12:00');
+
+
+SELECT p.PK_ID_persona as cedula,
+p.NM_nombre_persona as nombre,
+p.NM_apellido_persona as apellido,
+count(r.PK_FK_ID_persona_estudiante) as cantidad_estudiantes_representados
+FROM Persona p
+INNER JOIN Docente d on d.PK_FK_ID_persona=p.PK_ID_persona
+INNER JOIN Representar r on r.PK_FK_ID_persona_representante=p.PK_ID_persona
+GROUP BY cedula
+HAVING count(r.PK_FK_ID_persona_estudiante) >= 2;
+
+SELECT u.NM_nombre_usuario as usuario,
+count(d.PK_FK_ID_rol) as cantidad_roles
+FROM Usuario u
+INNER JOIN Definir d on d.PK_FK_ID_usuario=u.PK_ID_usuario
+INNER JOIN Rol r on r.PK_ID_rol=d.PK_FK_ID_rol
+GROUP BY usuario
+HAVING count(d.PK_FK_ID_rol) > 1;
+
+SELECT r.DESC_descripcion_rol as rol,
+count(d.PK_FK_ID_usuario) as cantidad_usuario
+FROM Rol r
+INNER JOIN Definir d on d.PK_FK_ID_rol=r.PK_ID_rol
+INNER JOIN Usuario u on u.PK_ID_usuario=d.PK_FK_ID_usuario
+GROUP BY rol
+HAVING count(d.PK_FK_ID_usuario) > 1;
+
+SELECT m.NM_nombre_materia as materia,
+a.TXT_tema_actividad as actividad
+FROM Registrar r
+INNER JOIN Actividad a on r.PK_FK_ID_actividad=a.PK_ID_actividad
+INNER JOIN Materia m on m.PK_ID_materia=a.PK_FK_ID_materia
+GROUP BY actividad;
+
+SELECT p.NM_nombre_persona as persona,
+p.NM_apellido_persona as apellido,
+e.LNK_foto_estudiante as foto
+FROM Persona p
+INNER JOIN Estudiante e on e.PK_FK_ID_persona=p.PK_ID_persona
+INNER JOIN Matricular m on m.PK_FK_ID_persona=e.PK_FK_ID_persona
+GROUP BY m.PK_FK_ID_persona;
+
+SELECT n.NM_nombre_nivel as nivel,
+'Nivel Valido' as Validacion
+FROM Nivel n
+INNER JOIN Matricular m on n.PK_ID_nivel=m.FK_ID_nivel
+INNER JOIN Materia ma on n.PK_ID_nivel=ma.FK_ID_nivel
+GROUP BY nivel;
+
+SELECT l.NM_nombre_libreta as libreta,
+avg(r.NUM_nota) as promedio_materia
+FROM Registrar r
+INNER JOIN Libreta l on l.PK_ID_libreta=r.PK_FK_ID_libreta
+INNER JOIN Actividad a on a.PK_ID_actividad=r.PK_FK_ID_actividad
+INNER JOIN Materia m on m.PK_ID_materia=a.PK_FK_ID_materia
+WHERE m.PK_ID_materia=8 and m.FK_ID_nivel=1
+GROUP BY libreta;
+
+SELECT a.NM_nombre_año as año_escolar,
+n.NM_nombre_nivel as nivel,
+count(m.PK_FK_ID_persona) as estudiantes_matriculados
+FROM Matricular m
+INNER JOIN Año_Escolar a on a.PK_ID_año=m.PK_FK_ID_año
+INNER JOIN Nivel n on n.PK_ID_nivel=m.FK_ID_nivel
+WHERE a.PK_ID_año=1 and m.STS_estado like 'Activo'
+GROUP BY nivel;
+
+SELECT u.NM_nombre_usuario as usuario,
+r.DESC_descripcion_rol as cantidad_roles
+FROM Usuario u
+INNER JOIN Definir d on d.PK_FK_ID_usuario=u.PK_ID_usuario
+INNER JOIN Rol r on r.PK_ID_rol=d.PK_FK_ID_rol
+WHERE d.PK_FK_ID_rol=10;
+
+SELECT i.NM_nombre_institucion as institucion,
+p.NM_nombre_persona as nombre_docente,
+p.NM_apellido_persona as apellido_docente,
+p.PK_ID_persona as cedula
+FROM Ubicar u
+INNER JOIN Docente d on u.PK_FK_ID_persona=d.PK_FK_ID_persona
+INNER JOIN Persona p on d.PK_FK_ID_persona=p.PK_ID_persona
+INNER JOIN Aula a on u.PK_FK_ID_aula=a.PK_ID_aula
+INNER JOIN Institucion i on u.PK_FK_ID_institucion=i.PK_ID_institucion
+GROUP BY u.PK_FK_ID_persona,u.PK_FK_ID_institucion;
